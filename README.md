@@ -1,2 +1,11 @@
-# Artemis-Financial
-this repo contains the deliverable from Project Two for my CS 305 class
+## CS 305 Module Eight Journal — Reflection
+
+For this portfolio submission, I selected **Project Two: Artemis Financial Practices for Secure Software Report**, which demonstrates my ability to apply secure coding principles and perform a professional code refactor with security best practices. **Artemis Financial** is a consulting firm that creates and maintains web-based financial applications for its clients. Their goal was to ensure that their existing code followed industry-standard security practices to protect sensitive financial and personal data. I was asked to evaluate their software for vulnerabilities, apply mitigation techniques, and confirm that the updated application met both functional and security requirements.
+
+Throughout this project, I conducted a **secure code review** and implemented updates to strengthen the program’s encryption, dependency management, and input validation. I used the **OWASP Dependency-Check** tool to identify outdated or vulnerable libraries and applied **checksum validation** to verify data integrity. I also implemented **TLS encryption** to ensure secure network communication and refactored portions of the code to align with secure software development life cycle (SDLC) principles. These changes reinforced my understanding of why **secure coding** is essential as it protects customer data, preserves business trust, and prevents costly data breaches.
+
+The most challenging part of this project was reviewing and interpreting dependency-check reports to determine which vulnerabilities were real threats and which were false positives. However, this process helped me gain experience in analyzing risk levels and applying targeted mitigations. I increased security layers through **input sanitization, code refactoring, and encryption updates**. In the future, I would use tools like **SonarQube**, **Burp Suite**, and **OWASP ZAP** alongside dependency analysis to assess vulnerabilities and determine the best mitigation approach.
+
+After refactoring, I conducted both **functional testing** and **secondary static analysis** to confirm that the application remained fully operational and that no new vulnerabilities were introduced. The combination of secure coding practices, testing procedures, and tool usage will be valuable in future development and cybersecurity-focused projects. 
+
+For potential employers, this artifact highlights my ability to identify and remediate software vulnerabilities, apply secure development practices, and maintain code quality, emonstrating a professional approach to **building and maintaining secure software systems**.
